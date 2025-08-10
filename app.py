@@ -1,5 +1,6 @@
 # app.py
 import os
+import imghdr
 from flask import Flask, request, abort
 from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Dispatcher, CommandHandler, MessageHandler, Filters, CallbackQueryHandler
